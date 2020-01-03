@@ -7,7 +7,7 @@
   $mysql_config_editor set --login-path=[path name] --host=[host addr] --user=[account name] --password --port=[port number] --socket=[soket number]
  </code>
 </pre>
-<b>2. write shell script(ex - db_backup.sh)</b>
+<b>2. Write shell script(ex - db_backup.sh)</b>
 <pre>
  <code>
   #!bin/sh
@@ -25,7 +25,13 @@
  
  </code>
 </pre>
-<b>3. edit crontab</b>
+<b>3. Grant execute permission on the file</b>
+<pre>
+ <code>
+  $chmod -x db_backup.sh
+ </code>
+</pre>
+<b>4. edit crontab</b>
 <p>
 <pre>
  <code>
