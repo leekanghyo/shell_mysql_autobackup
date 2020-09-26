@@ -12,7 +12,7 @@
  <code>
   #!bin/sh
   
-  DATE=$(dfate +%Y%m%d)
+  DATE=$(date +%Y%m%d)
   
   # connect and create backup sql file.
   /usr/bin/mysqldump --login-path=[path name] [DB name] > /home/[Your Backup Folder]/mysql_back_${DATE}.sql
