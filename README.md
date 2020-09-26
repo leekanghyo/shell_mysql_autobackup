@@ -28,7 +28,7 @@
 <b>3. Grant execute permission on the file</b>
 <pre>
  <code>
-  $chmod -x db_backup.sh
+  $chmod +x db_backup.sh
  </code>
 </pre>
 <b>4. edit crontab</b>
